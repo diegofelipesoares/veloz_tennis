@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+}
+
+header img{
+    width: 80px;
+}
+
+.navbar{
+    background-color: rgb(255, 255, 255);
+}
+
+.nav .nav-link.active{
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    border-radius: 0px;
+    color: black;
+}
+
+.nav .nav-link, .navbar-brand, .navbar-brand:hover{
+    color: black;
+}
+
+.carousel-item img{
+    width: 100%;
+    padding-top: 20px;
+}
+
+#carouselFrases{
+    padding: 10px 0;
+    margin-top: 10px;
+    background-color: rgb(235, 235, 235);
+}
+
+
+#carouselFrases .carousel-control-prev-icon{
+    filter: invert(100%); /* Inverte a cor para preto */
+    margin-left: 140px;
+}
+#carouselFrases .carousel-control-next-icon {
+    filter: invert(100%); /* Inverte a cor para preto */
+    margin-right: 140px;
+}
+
+#Nova_Colecao{
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+#Nova_Colecao h3{
+    font-weight: 900;
+    margin: 0;
+}
+
+#Nova_Colecao p{
+    margin: 0;
+    font-size: 14px;
+}
+
+#Nova_Colecao button{
+    margin-top: 20px;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    font-weight: 200;
+    padding: 12px 20px;
+    border-radius: 25px;
+    margin-left: 10px;
+}
